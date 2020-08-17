@@ -1,0 +1,20 @@
+---
+title: "Fractional Brownian Motion in R"
+author: "Justin Yu"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Fractional Brownian Motion in R}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(fractionalBM)
+```

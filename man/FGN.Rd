@@ -4,14 +4,12 @@
 \alias{FGN}
 \title{Fractional Gaussian Noise}
 \usage{
-FGN(N, H, t = 1, method = "davies-harte")
+FGN(N, H, method = "davies-harte")
 }
 \arguments{
 \item{N}{Number of simulated points}
 
 \item{H}{Hurst parameter}
-
-\item{t}{Length of the simulated series}
 
 \item{method}{The simulation method to be used}
 }
@@ -19,5 +17,5 @@ FGN(N, H, t = 1, method = "davies-harte")
 A sample of fractional Gaussian noise of size N
 }
 \description{
-Fractional Gaussian Noise
+Returns a sample of fractional Gaussian noise of size N
 }

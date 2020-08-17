@@ -16,10 +16,10 @@ FBM(N, H, t = 1, method = "davies-harte")
 \item{method}{The simulation method to be used}
 }
 \value{
-A single discrete path of fractional Brownian motion.
+A single discrete path of fractional Brownian motion by simulating fractional Gaussian noise (see \code{\link{FGN}}).
 }
 \description{
-Fractional Brownian Motion
+Returns a discrete simulated realization of fractional Brownian motion of size N.
 }
 \examples{
 \dontrun{

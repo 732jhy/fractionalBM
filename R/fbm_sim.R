@@ -33,16 +33,16 @@
 # 3. Cholesky Method --- Complexity: O(N^3)
 
 
-library(stats)
-
-#' Fractional Brownian Motion
+#' @title Fractional Brownian Motion
+#'
+#' @description Returns a discrete simulated realization of fractional Brownian motion of size N.
 #'
 #' @param N Number of simulated points
 #' @param H Hurst parameter
 #' @param t Length of the simulated series
 #' @param method The simulation method to be used
 #'
-#' @return A single discrete path of fractional Brownian motion.
+#' @return A single discrete path of fractional Brownian motion by simulating fractional Gaussian noise (see \code{\link{FGN}}).
 #' @export
 #'
 #' @examples
