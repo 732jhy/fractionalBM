@@ -174,7 +174,6 @@ FGN <- function(N, H, method='davies-harte') {
 
 
 
-# This is a test change
 
 
 
