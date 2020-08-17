@@ -48,7 +48,5 @@ title(main='Hurst = 0.5')
 plot(h08, type='l')
 title(main="Hurst = 0.8")
 
-
 ```
-
 
