@@ -41,7 +41,6 @@ h08 = FBM(1000, 0.8)
 
 plot(h02,type='l')
 title(main='Hurst = 0.2')
-![](images/h02.png)
 
 plot(h05, type='l')
 title(main='Hurst = 0.5')
