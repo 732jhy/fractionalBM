@@ -39,7 +39,6 @@ library(stats)
 #'
 #' @param N Number of simulated points
 #' @param H Hurst parameter
-#' @param t Length of the simulated series
 #' @param method The simulation method to be used
 #'
 #' @return A sample of fractional Gaussian noise of size N
@@ -55,7 +54,7 @@ library(stats)
 #' \dontrun{
 #' FGN(1000, 0.25, 1.0, 'cholesky)
 #' }
-FGN <- function(N, H, t=1, method='davies-harte') {
+FGN <- function(N, H, method='davies-harte') {
 
   # Hurst parameter check
   if((H < 0) | (H > 1)) {
