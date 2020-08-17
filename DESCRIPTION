@@ -1,0 +1,13 @@
+Package: fractionalBM
+Type: Package
+Title: Simulates Fractional Brownian Motion and Fractional Gaussian Noise
+Version: 0.1.0
+Author: Justin Yu <732jhy@gmail.com>
+Maintainer: Justin Yu <732jhy@gmail.com>
+Description: Uses several different methods (Davies-Harte, Hosking, and Cholesky) to simulate discrete paths
+    of Fractional Brownian Motion and Fractional Gaussian Noise for a given number of points, a specified length,
+    and a specified Hurst parameter.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1

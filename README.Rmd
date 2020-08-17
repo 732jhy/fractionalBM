@@ -1,0 +1,54 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# fractionalBM
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of fractionalBM is to provide several different ways of simulating discrete paths of fractional Brownian Motion for different lengths of time, and different Hurst parameters. 
+
+## Installation
+
+You can install the released version of fractionalBM from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("fractionalBM")
+```
+
+## Sample plots
+
+This is a basic example which shows you how to generate paths of fractional Brownian motion:
+
+```{r example}
+library(fractionalBM)
+
+h02 = FBM(1000, 0.2)
+h05 = FBM(1000, 0.5)
+h08 = FBM(1000, 0.8)
+
+plot(h02,type='l')
+title(main='Hurst = 0.2')
+
+plot(h05, type='l')
+title(main='Hurst = 0.5')
+
+plot(h08, type='l')
+title(main="Hurst = 0.8")
+
+
+```
+
+
