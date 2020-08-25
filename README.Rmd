@@ -28,6 +28,13 @@ You can install the released version of fractionalBM from [CRAN](https://CRAN.R-
 install.packages("fractionalBM")
 ```
 
+This package can also be installed via github from https://github.com/732jhy/fractionalBM/ with:
+
+```{r}
+library(devtools)
+install_github("732jhy/fractionalBM")
+```
+
 ## Sample plots
 
 This is a basic example which shows you how to generate paths of fractional Brownian motion:
