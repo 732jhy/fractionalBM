@@ -37,7 +37,7 @@ install_github("732jhy/fractionalBM")
 
 ## Sample plots
 
-This is a basic example which shows you how to generate paths of fractional Brownian motion:
+This is a basic example which shows you how to generate and plot paths of fractional Brownian motion:
 
 ```{r example}
 library(fractionalBM)
